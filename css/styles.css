@@ -43,3 +43,24 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.map {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.calendar {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.form {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
