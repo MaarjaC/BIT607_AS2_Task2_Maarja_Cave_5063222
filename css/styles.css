@@ -1,6 +1,13 @@
 body {
   background: black;
   color: white;
+  font-family: Cormorant Upright, serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: Amaranth, sans-serif;
 }
 
 .banner {
@@ -39,7 +46,7 @@ body {
     font-family: Amaranth, sans-serif;
 }
 
-img {
+.restaurantPhoto {
     max-width: 100%;
     height: auto;
 }
@@ -63,4 +70,83 @@ img {
   margin-left: auto;
   margin-right: auto;
   display: flex;
+}
+
+.appetizers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: right;
+  align-items: center;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .appetizers {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.mainDish {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  align-items: center;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .mainDish {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  div#content {
+    order: 1;
+  }
+
+  div#image {
+    order: 2;
+  }
+}
+
+.dessert {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: right;
+  align-items: center;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .dessert {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.beverages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .beverages {
+    flex-direction: column;
+    
+  }
+}
+
+.menuPhoto {
+  padding: 30px;
+}
+
+.beveragePhoto {
+  max-width: 100%;
+  height: auto;
 }
