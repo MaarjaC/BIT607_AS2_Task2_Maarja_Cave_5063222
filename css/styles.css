@@ -144,6 +144,15 @@ h1 {
 
 .menuPhoto {
   padding: 30px;
+  
+}
+
+@media (max-width: 800px) {
+  .menuPhoto {
+    max-width: 60%;
+    height: auto;
+    
+  }
 }
 
 .beveragePhoto {
